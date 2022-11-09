@@ -24,7 +24,7 @@ const Header = () => {
       {isAuthenticated ? (
         <button
           className="btnn"
-          onChange={() => logout({ returnTo: window.location.origin })}
+          onClick={() => logout({ returnTo: window.location.origin })}
         >
           Logout
         </button>

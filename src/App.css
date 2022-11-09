@@ -47,13 +47,16 @@
 }
 
 /* end header style */
-
+.h1{
+  margin: 5px;
+}
 .msg{
   color: #fff;
   background-color: green;
   margin-top: 5px;
   padding: 3px;
   text-align: center;
+  
 }
 .btn{
   color: black;

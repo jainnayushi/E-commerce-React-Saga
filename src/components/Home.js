@@ -25,9 +25,9 @@ function Home() {
           Add Items of {50000 - amount}/- to avail 50% Cashback
         </div>
       )}
-      <h1>Flash Sale</h1>
+      <h1 className="h1">Flash Sale</h1>
       <Link className="link" to="/products">
-        Browse Products
+        Browse All Products
       </Link>
 
       <div className="product-container">

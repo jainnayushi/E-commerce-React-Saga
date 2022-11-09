@@ -7,16 +7,16 @@
             "price": 15000,
             "category": "mobile",
             "brand": "Samsung",
-            "photo": "https://herakoi.com/wp-content/uploads/sites/3/2020/12/dummy-product-09.jpg"
+            "photo": "https://m.media-amazon.com/images/I/41I9MFv8lOL.jpg"
         },
         {
             "id": 2,
-            "name": "Samsung F20",
-            "color": "white",
-            "price": 50000,
-            "category": "Mobile",
-            "brand": "Samsung",
-            "photo": "https://herakoi.com/wp-content/uploads/sites/3/2020/12/dummy-product-09.jpg"
+            "name": "earphone - 10",
+            "color": "green",
+            "price": 800,
+            "category": "earphone",
+            "brand": "mivi",
+            "photo": "https://m.media-amazon.com/images/I/61x8gxTCOaL._SY355_.jpg"
         },
         {
             "id": 3,
@@ -25,7 +25,7 @@
             "price": 5000,
             "category": "cloths",
             "brand": "Nike",
-            "photo": "https://herakoi.com/wp-content/uploads/sites/3/2020/12/dummy-product-09.jpg"
+            "photo": "https://m.media-amazon.com/images/I/A13usaonutL._CLa%7C2140%2C2000%7C61D5RijjomL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_UL1500_.png"
         },
         {
             "id": 4,
@@ -34,43 +34,81 @@
             "price": 8000,
             "category": "rebook",
             "brand": "Nike",
-            "photo": "https://herakoi.com/wp-content/uploads/sites/3/2020/12/dummy-product-09.jpg"
+            "photo": "https://sc04.alicdn.com/kf/Hd9ad7ef73b7f48e591c6169606cccf26d.jpg"
         },
         {
             "id": 5,
-            "name": "530 laptop",
+            "name": "Samsung F20",
             "color": "white",
-            "price": 88000,
-            "category": "laptop",
-            "brand": "HP",
-            "photo": "https://herakoi.com/wp-content/uploads/sites/3/2020/12/dummy-product-09.jpg"
+            "price": 50000,
+            "category": "Mobile",
+            "brand": "Samsung",
+            "photo": "https://m.media-amazon.com/images/I/71MmJNwZcML._SX679_.jpg"
         },
         {
             "id": 6,
-            "name": "earphone - 10",
-            "color": "green",
-            "price": 800,
-            "category": "earphone",
-            "brand": "mivi",
-            "photo": "https://herakoi.com/wp-content/uploads/sites/3/2020/12/dummy-product-09.jpg"
-        },
-        {
-            "id": 7,
             "name": "black shirt",
             "color": "black",
             "price": 1800,
             "category": "cloths",
             "brand": "tommy",
-            "photo": "https://herakoi.com/wp-content/uploads/sites/3/2020/12/dummy-product-09.jpg"
+            "photo": "https://m.media-amazon.com/images/I/A13usaonutL._CLa%7C2140%2C2000%7C61D5RijjomL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_UL1500_.png"
+        },
+        {
+            "id": 7,
+            "name": "530 laptop",
+            "color": "white",
+            "price": 88000,
+            "category": "laptop",
+            "brand": "HP",
+            "photo": "https://i5.walmartimages.com/asr/67343b63-51ad-4f7c-9617-3c770cd3592d.4fba15df1b68f1af5d5ab12ea87d814d.jpeg"
         },
         {
             "id": 8,
-            "name": "green shirt",
-            "color": "green",
+            "name": "boat",
+            "color": "orange",
             "price": 1900,
+            "category": "earphone",
+            "brand": "boat",
+            "photo": "https://m.media-amazon.com/images/I/61x8gxTCOaL._SY355_.jpg"
+        }
+    ],
+    "products_sale": [
+        {
+            "id": 5,
+            "name": "Samsung F20",
+            "color": "white",
+            "price": 50000,
+            "category": "Mobile",
+            "brand": "Samsung",
+            "photo": "https://m.media-amazon.com/images/I/71MmJNwZcML._SX679_.jpg"
+        },
+        {
+            "id": 6,
+            "name": "black shirt",
+            "color": "black",
+            "price": 1800,
             "category": "cloths",
             "brand": "tommy",
-            "photo": "https://herakoi.com/wp-content/uploads/sites/3/2020/12/dummy-product-09.jpg"
+            "photo": "https://m.media-amazon.com/images/I/A13usaonutL._CLa%7C2140%2C2000%7C61D5RijjomL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_UL1500_.png"
+        },
+        {
+            "id": 7,
+            "name": "530 laptop",
+            "color": "white",
+            "price": 88000,
+            "category": "laptop",
+            "brand": "HP",
+            "photo": "https://i5.walmartimages.com/asr/67343b63-51ad-4f7c-9617-3c770cd3592d.4fba15df1b68f1af5d5ab12ea87d814d.jpeg"
+        },
+        {
+            "id": 8,
+            "name": "boat",
+            "color": "orange",
+            "price": 1900,
+            "category": "earphone",
+            "brand": "boat",
+            "photo": "https://m.media-amazon.com/images/I/61x8gxTCOaL._SY355_.jpg"
         }
     ]
 }
