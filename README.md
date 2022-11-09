@@ -5,7 +5,6 @@
 
 * npm start
 
-<img width="448" alt="image" src="https://user-images.githubusercontent.com/64698800/200750338-419d643e-9f54-4bb2-bfd6-2ba868ac531a.png">
 <img width="329" alt="image" src="https://user-images.githubusercontent.com/64698800/200750640-dc2cf04d-26be-4b57-b63b-237e1df28ad2.png">
 
 # Webapp Preview
