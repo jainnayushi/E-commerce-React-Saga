@@ -6,6 +6,9 @@ import {
   SALE_LIST,
   SALE_SEARCH,
   SET_SALE_LIST,
+  SEARCH,
+  LIST,
+  SET_LIST,
 } from "./constant";
 
 function* getProducts() {
@@ -14,11 +17,18 @@ function* getProducts() {
   yield put({ type: SET_PRODUCT_LIST, data });
 }
 
+function* getList() {
+  let data = yield fetch("http://localhost:3500/products");
+  data = yield data.json();
+  yield put({ type: SET_LIST, data });
+}
+
 function* searchProducts(data) {
   let result = yield fetch(`http://localhost:3500/products?q=${data.query}`);
   result = yield result.json();
   yield put({ type: SET_PRODUCT_LIST, data: result });
 }
+
 // For sale
 function* getSaleProducts() {
   // console.warn("3");
@@ -42,6 +52,7 @@ function* productSaga() {
   yield takeEvery(SEARCH_PRODUCT, searchProducts);
   yield takeEvery(SALE_LIST, getSaleProducts);
   yield takeEvery(SALE_SEARCH, searchSaleProducts);
+  yield takeEvery(LIST, getList);
 }
 
 export default productSaga;

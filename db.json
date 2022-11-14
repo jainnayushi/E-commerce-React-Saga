@@ -7,7 +7,8 @@
             "price": 15000,
             "category": "mobile",
             "brand": "Samsung",
-            "photo": "https://m.media-amazon.com/images/I/41I9MFv8lOL.jpg"
+            "photo": "https://m.media-amazon.com/images/I/41I9MFv8lOL.jpg",
+            "filtr" : "electronics"
         },
         {
             "id": 2,
@@ -23,7 +24,7 @@
             "name": "T-shirt",
             "color": "red",
             "price": 5000,
-            "category": "cloths",
+            "category": "clothing",
             "brand": "Nike",
             "photo": "https://m.media-amazon.com/images/I/A13usaonutL._CLa%7C2140%2C2000%7C61D5RijjomL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_UL1500_.png"
         },
@@ -43,14 +44,15 @@
             "price": 50000,
             "category": "Mobile",
             "brand": "Samsung",
-            "photo": "https://m.media-amazon.com/images/I/71MmJNwZcML._SX679_.jpg"
+            "photo": "https://m.media-amazon.com/images/I/71MmJNwZcML._SX679_.jpg",
+            "filtr" : "electronics"
         },
         {
             "id": 6,
             "name": "black shirt",
             "color": "black",
             "price": 1800,
-            "category": "cloths",
+            "category": "clothing",
             "brand": "tommy",
             "photo": "https://m.media-amazon.com/images/I/A13usaonutL._CLa%7C2140%2C2000%7C61D5RijjomL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_UL1500_.png"
         },
@@ -61,7 +63,8 @@
             "price": 88000,
             "category": "laptop",
             "brand": "HP",
-            "photo": "https://i5.walmartimages.com/asr/67343b63-51ad-4f7c-9617-3c770cd3592d.4fba15df1b68f1af5d5ab12ea87d814d.jpeg"
+            "photo": "https://i5.walmartimages.com/asr/67343b63-51ad-4f7c-9617-3c770cd3592d.4fba15df1b68f1af5d5ab12ea87d814d.jpeg",
+            "filtr" : "electronics"
         },
         {
             "id": 8,
@@ -81,14 +84,15 @@
             "price": 50000,
             "category": "Mobile",
             "brand": "Samsung",
-            "photo": "https://m.media-amazon.com/images/I/71MmJNwZcML._SX679_.jpg"
+            "photo": "https://m.media-amazon.com/images/I/71MmJNwZcML._SX679_.jpg",
+            "filtr" : "electronics"
         },
         {
             "id": 6,
             "name": "black shirt",
             "color": "black",
             "price": 1800,
-            "category": "cloths",
+            "category": "clothing",
             "brand": "tommy",
             "photo": "https://m.media-amazon.com/images/I/A13usaonutL._CLa%7C2140%2C2000%7C61D5RijjomL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_UL1500_.png"
         },
@@ -99,7 +103,8 @@
             "price": 88000,
             "category": "laptop",
             "brand": "HP",
-            "photo": "https://i5.walmartimages.com/asr/67343b63-51ad-4f7c-9617-3c770cd3592d.4fba15df1b68f1af5d5ab12ea87d814d.jpeg"
+            "photo": "https://i5.walmartimages.com/asr/67343b63-51ad-4f7c-9617-3c770cd3592d.4fba15df1b68f1af5d5ab12ea87d814d.jpeg",
+            "filtr" : "electronics"
         },
         {
             "id": 8,

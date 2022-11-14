@@ -1,16 +1,21 @@
-import { useSelector } from "react-redux";
-import { Link } from "react-router-dom";
+import { addToCart, removeFromCart } from "../redux/action/action";
+import Header from "./Header";
 import { useAuth0 } from "@auth0/auth0-react";
+import { useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
+import { Link } from "react-router-dom";
 
 const Cart = () => {
+  const dispatch = useDispatch();
   const { user, isAuthenticated } = useAuth0();
   const cartData = useSelector((state) => state.cartData);
   let amount =
     cartData.length &&
     cartData.map((item) => item.price).reduce((prev, next) => prev + next);
-  
+
   return (
     <div>
+      <Header activeSearch={"false"} />
       {50000 - amount > 0 && (
         <div className="msg">
           Add Items of {50000 - amount}/- to avail 50% Cashback
@@ -34,6 +39,7 @@ const Cart = () => {
             <th>Price</th>
             <th>Brand</th>
             <th>Category</th>
+            <th>Operation</th>
           </tr>
           {cartData.map((item) => (
             <tr key={item.key}>
@@ -42,6 +48,14 @@ const Cart = () => {
               <td>{item.price}</td>
               <td>{item.brand}</td>
               <td>{item.category}</td>
+              <td>
+                <button
+                  className="btn3"
+                  onClick={() => dispatch(removeFromCart(item.id))}
+                >
+                  Remove
+                </button>
+              </td>
             </tr>
           ))}
         </table>
