@@ -1,6 +1,5 @@
 import {
   PRODUCT_LIST,
-  SEARCH_PRODUCT,
   SEARCH,
   LIST,
   SET_PRODUCT_LIST,
@@ -19,15 +18,7 @@ export const list = () => {
   };
 };
 
-export const productSearch = (query) => {
-  return {
-    type: SEARCH_PRODUCT,
-    query,
-  };
-};
-
 export const search = (query, originalData) => {
-  originalData = originalData;
   if (query.length === 0) {
     return {
       type: SEARCH,

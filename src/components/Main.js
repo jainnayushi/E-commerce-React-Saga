@@ -57,7 +57,7 @@ function Main() {
       </button>
       <button
         className="category"
-        onClick={() => dispatch(search("clothing", apiData))}
+        onClick={() => dispatch(search("cloths", apiData))}
       >
         Clothing
       </button>

@@ -1,4 +1,4 @@
-import { addToCart, removeFromCart } from "../redux/action/action";
+import { removeFromCart } from "../redux/action/action";
 import Header from "./Header";
 import { useAuth0 } from "@auth0/auth0-react";
 import { useSelector } from "react-redux";

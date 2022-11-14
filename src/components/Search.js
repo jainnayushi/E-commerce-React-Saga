@@ -5,7 +5,6 @@ import { useState } from "react";
 
 export default function Search() {
   const dispatch = useDispatch();
-  let originalData = useSelector((state) => state.productData);
   const { loginWithRedirect, isAuthenticated, logout } = useAuth0();
   let apiData = useSelector((state) => state.listData);
 
@@ -26,9 +25,6 @@ export default function Search() {
         type="text"
         id="search"
         onChange={onChange}
-        // onChange={(event) => {
-        //   setEvent(event.target.value);
-        // }}
         value={event}
         placeholder="Type to Search Product"
         autoComplete="off"
