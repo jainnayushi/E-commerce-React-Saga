@@ -1,26 +1,38 @@
 # Get Started
-* json-server --watch db.json --port 3500
-
-<img width="399" alt="image" src="https://user-images.githubusercontent.com/64698800/200749871-7e46ebb8-50f5-4000-a664-70fb4a3a7e43.png">
-
+* API - https://api.jsonbin.io/v3/b/6372435b65b57a31e6b73db3
 * npm start
 
-<img width="329" alt="image" src="https://user-images.githubusercontent.com/64698800/200750640-dc2cf04d-26be-4b57-b63b-237e1df28ad2.png">
-
 # Webapp Preview
-* Landing Sale Page
-![image](https://user-images.githubusercontent.com/64698800/200753097-5c12bc0d-32aa-421a-b32c-507d5721f8dc.png)
-* All products
-![image](https://user-images.githubusercontent.com/64698800/200753205-e3089263-6e38-483c-80f1-226fd1d2a236.png)
-![image](https://user-images.githubusercontent.com/64698800/200753238-9309a243-7f1a-4fcd-aa37-439d56bbda3b.png)
+
+* Landing Page
+
+![image](https://user-images.githubusercontent.com/64698800/201852395-b1f4776b-ab0c-47f3-a926-5fd4d17c7642.png)
+
+* Category
+
+![image](https://user-images.githubusercontent.com/64698800/201852491-3200e9b0-32fb-4385-8b1e-20dd3698bb82.png)
+
+* Sale Products
+
+![image](https://user-images.githubusercontent.com/64698800/201852576-16ca6aca-f0a9-4388-a3e0-0321d234f008.png)
+
+* Search Bar with Suggestions
+
+![image](https://user-images.githubusercontent.com/64698800/201852626-00e44cec-2efd-4df1-9c95-2a5861e1bbc0.png)
+![image](https://user-images.githubusercontent.com/64698800/201852655-90b10e1e-3eca-4111-898c-f27a650ee86c.png)
+
+* Remove from Cart option comes only when product is already added
+
+![image](https://user-images.githubusercontent.com/64698800/201852729-44be5c27-1303-4fbf-b0e6-586fd71ecc88.png)
+
 * Cart Details
-![image](https://user-images.githubusercontent.com/64698800/200754213-d3a61460-3eb1-4e1a-97cf-4b5ab469bf07.png)
 
-* Search Functionality
-![image](https://user-images.githubusercontent.com/64698800/200754655-95c2a052-25f2-454b-949d-5a96b487fcb7.png)
+![image](https://user-images.githubusercontent.com/64698800/201852765-c58cb762-8c03-45f3-946a-c6f2839d062f.png)
 
-* Automatic LogOut Option on Login
-![image](https://user-images.githubusercontent.com/64698800/200753449-f7ce7a6a-1ffc-4c8a-92e2-53f599578ae3.png)
+* Product Details
+
+![image](https://user-images.githubusercontent.com/64698800/201852843-e8ec739b-705b-4eca-8850-9e20cd3e2e1b.png)
+
 ### auth0
 ayushi987@gmail.com - Admini@123
 
