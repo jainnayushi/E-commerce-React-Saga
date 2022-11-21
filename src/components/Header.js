@@ -13,8 +13,9 @@ const Header = (props) => {
       {props.activeSearch === "true" ? <Search /> : <div></div>}
       <Link to="/cart">
         <div className="cart-div">
-          <span>{result.length}</span>
+          <span aria-label="Products Count">{result.length}</span>
           <img
+          aria-label="Cart Img"
             src="https://th.bing.com/th/id/OIP.W7RIqUpb4s2JM86eZ3P5FQHaHa?pid=ImgDet&w=600&h=600&rs=1"
             alt=""
           />

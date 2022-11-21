@@ -15,12 +15,12 @@ export default function Search() {
   const onSearch = (searchTerm) => {
     setEvent(searchTerm);
     dispatch(search(searchTerm, apiData));
-    console.log("search ", searchTerm);
+    // console.log("search ", searchTerm);
   };
 
   return (
     <div className="search-box">
-      {console.log("=== received api data=", apiData)}
+      {/* {console.log("=== received api data=", apiData)} */}
       <input
         type="text"
         id="search"
@@ -28,12 +28,14 @@ export default function Search() {
         value={event}
         placeholder="Type to Search Product"
         autoComplete="off"
+        aria-label="Search-Bar"
       />
       <button
         className="searchBtn"
         onClick={() => {
           onSearch(event);
         }}
+        aria-label="Search"
       >
         Search
       </button>

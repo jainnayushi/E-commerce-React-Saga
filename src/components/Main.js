@@ -39,24 +39,28 @@ function Main() {
       <br />
       <button
         className="category"
+        aria-label="Footwear Category"
         onClick={() => dispatch(search("rebook", apiData))}
       >
         Footwear
       </button>
       <button
         className="category"
+        aria-label="Mobile Category"
         onClick={() => dispatch(search("mobile", apiData))}
       >
         Mobile
       </button>
       <button
         className="category"
+        aria-label="Laptop Category"
         onClick={() => dispatch(search("laptop", apiData))}
       >
         Laptop
       </button>
       <button
         className="category"
+        aria-label="Clothing Category"
         onClick={() => dispatch(search("cloths", apiData))}
       >
         Clothing
@@ -79,6 +83,7 @@ function Main() {
             <div>
               <button
                 className="btn2"
+                aria-label="Add to Cart"
                 onClick={() => dispatch(addToCart(item))}
               >
                 Add to Cart
